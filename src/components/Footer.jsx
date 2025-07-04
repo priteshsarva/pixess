@@ -84,7 +84,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
                 <span className="text-black font-bold text-lg">P</span>
               </div>
-              <span className="text-xl font-bold">Pixel</span>
+              <span className="text-xl font-bold">Pixes</span>
             </Link>
             <p className="text-gray-300 mb-6 leading-relaxed">
               We're a premium digital agency specializing in web development, design, 
@@ -93,8 +93,8 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-gray-400" />
-                <a href="mailto:hello@pixel.com" className="text-gray-300 hover:text-white">
-                  hello@pixel.com
+                <a href="mailto:hello@Pixes.com" className="text-gray-300 hover:text-white">
+                  hello@Pixes.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -139,7 +139,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-6 mb-4 md:mb-0">
               <span className="text-gray-400">
-                © {currentYear} Pixel. All rights reserved.
+                © {currentYear} Pixes. All rights reserved.
               </span>
               <div className="flex items-center space-x-4 text-sm">
                 <Link to="/privacy" className="text-gray-400 hover:text-white">
