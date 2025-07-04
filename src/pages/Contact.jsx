@@ -74,7 +74,7 @@ const Contact = () => {
   ];
 
   return (
-    <div className="pt-32">
+    <div className="">
       {/* Page Hero */}
       <section className="section-padding bg-gradient-to-br from-gray-50 to-white">
         <div className="container-custom">
@@ -300,7 +300,7 @@ const Contact = () => {
       </section>
 
       {/* Map Section (Optional) */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -320,7 +320,7 @@ const Contact = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

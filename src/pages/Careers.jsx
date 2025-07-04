@@ -149,7 +149,7 @@ const Careers = () => {
   ];
 
   return (
-    <div className="pt-32">
+    <div className="">
       {/* Page Hero */}
       <section className="section-padding bg-gradient-to-br from-gray-50 to-white">
         <div className="container-custom">

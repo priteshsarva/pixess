@@ -21,7 +21,7 @@ const Work = () => {
   };
 
   return (
-    <div className="pt-32">
+    <div className="">
       {/* Page Hero */}
       <section className="section-padding bg-gradient-to-br from-gray-50 to-white">
         <div className="container-custom">
@@ -52,7 +52,7 @@ const Work = () => {
       </section>
 
       {/* Filter Section */}
-      <section className="py-8 border-b border-gray-200 sticky top-32 bg-white/95 backdrop-blur-md z-40">
+      <section className="py-8 border-b border-gray-200 bg-white/95 backdrop-blur-md z-40">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

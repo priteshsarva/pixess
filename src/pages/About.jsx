@@ -36,7 +36,7 @@ const About = () => {
   ];
 
   return (
-    <div className="pt-32">
+    <div className="">
       {/* Page Hero */}
       <section className="section-padding bg-gradient-to-br from-gray-50 to-white">
         <div className="container-custom">
@@ -213,7 +213,7 @@ const About = () => {
       </section>
 
       {/* Company Timeline */}
-      <section className="section-padding bg-gray-50">
+      {/* <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -260,7 +260,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="section-padding bg-black text-white">
